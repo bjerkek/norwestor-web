@@ -71,9 +71,20 @@ a:hover {
   height: 80px;
 }
 
-.about-us {
+.scroll-box-content {
   max-width: 600px;
   margin: 0 auto;
+}
+
+@media (min-width: 640px) {
+  .about-us {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .company {
+    order: 2
+  }
 }
 
 .company {
